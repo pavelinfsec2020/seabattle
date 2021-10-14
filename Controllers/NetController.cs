@@ -14,7 +14,7 @@ namespace SeaBattle.Controllers
     {
       public  static Viewers.ConnectionViewer _conView = new Viewers.ConnectionViewer();
         private static int _countOfClicks = 0;
-       public static  SoundPlayer _startMusic = new SoundPlayer(Properties.Resources.fone);
+       private static  SoundPlayer _startMusic = new SoundPlayer(Properties.Resources.fone);
      
         public static Models.TcpConnection connection = new Models.TcpConnection();
 
