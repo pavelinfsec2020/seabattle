@@ -2,7 +2,7 @@
 {
     internal class Ship
     {
-        private int _size;
+        private readonly int _size;
         public int[] _decksHealth;
         public bool _isDied = false;
         public int Size
