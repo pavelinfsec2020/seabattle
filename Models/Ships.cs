@@ -13,9 +13,9 @@
         {
             _size = size;
             _decksHealth = new int[_size];
-            inicializeShip(); ;
+            InicializeShip(); ;
         }
-        public void inicializeShip()
+        public void InicializeShip()
         {
             for (int i = 0; i < _size; i++) _decksHealth[i] = 1;
         }
