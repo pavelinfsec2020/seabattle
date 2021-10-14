@@ -1,2 +1,1 @@
-# seabattle
-The Sea Battle game is a classic version of the popular school's years game in multiplayer mode between two players over TCP protocol. The MVC pattern was used to implement the project. The peculiarity of the game is that the players take turns regardless of the successful hit. You may remake this game with your own ideas. It's realy work on Linux OS. For it Install wine32, winetricks and dotnet48 with winetricks
+
